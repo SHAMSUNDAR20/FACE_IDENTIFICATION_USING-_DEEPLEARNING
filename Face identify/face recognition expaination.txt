@@ -1,0 +1,74 @@
+Deep Learning Project – Face Identifiers using Python & OpenCV:
+
+Face Recognition with Python - Identify and recognize a person in the live real-time video.
+
+
+*In this deep learning project, we will learn how to recognize the human faces in live video with Python.
+* We will build this project using python dlib’s facial recognition network. 
+*Dlib is a general-purpose software library. Using dlib toolkit, we can make real-world machine learning applications.
+
+*In this project, we will first understand the working of face recognizer. Then we will build face recognition with Python.
+
+Face Recognition with Python, OpenCV & Deep Learning:
+
+About dlib’s Face Recognition:
+
+Python provides face_recognition API which is built through dlib’s face recognition algorithms. 
+This face_recognition API allows us to implement face detection, real-time face tracking and face recognition applications.
+
+
+About Cmake:
+
+CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice.
+
+Project Prerequisites:
+
+first You need to install:
+       Python latest version
+       install cmake
+       Microsoft visual studio code
+       Microsoft visual studio:
+		Desktop Devlopment in c++ to run dlib.
+
+You need to install in command prompt cmd:
+       pip install opencv
+       pip install cmake
+       pip install dlib  
+       pip install face_recognition
+
+
+Steps to implement Face Recognition with Python:
+
+We will build this python project in two parts. We will build two different python files for these two parts:
+
+embedding.py: In this step, we will take images of the person as input. We will make the face embeddings of these images.
+
+recognition.py: Now, we will recognize that particular person from the camera frame.
+
+
+
+1. embedding.py:
+First, create a file embedding.py in your working directory.
+In this file, we will create face embeddings of a particular human face. 
+We make face embeddings using face_recognition.face_encodings method. 
+These face embeddings are a 128 dimensional vector. 
+In this vector space, different vectors of same person images are near to each other. 
+After making face embedding, we will store them in a pickle file.
+
+
+2.recognition.py:
+Here we will again create person’s embeddings from the camera frame. 
+Then, we will match the new embeddings with stored embeddings from the pickle file. 
+The new embeddings of same person will be close to its embeddings into the vector space. 
+And hence we will be able to recognize the person.
+
+
+Summary:
+
+This deep learning project teaches you how to develop human face recognition project with python libraries dlib and face_recognition APIs (of OpenCV).
+
+It also covers the introduction to face_recognition API. We have implemented this python project in two parts:
+
+In the first part, we have seen how to store the information about human face structure, i.e face embedding. Then we learn how to store these embeddings.
+In the second part, we have seen how to recognize the person by comparing the new face embeddings with the stored one.
+
