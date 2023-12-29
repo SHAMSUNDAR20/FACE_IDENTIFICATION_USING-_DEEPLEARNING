@@ -28,5 +28,5 @@ This project aims to implement face identification using deep learning technique
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SHAMSUNDAR20/face-identification.git
-   cd face-identification
+   https://github.com/SHAMSUNDAR20/FACE_IDENTIFICATION_USING-_DEEPLEARNING.git
+   cd FACE_IDENTIFICATION_USING-_DEEPLEARNING
