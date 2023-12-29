@@ -36,6 +36,8 @@ You need to install in command prompt cmd:
        pip install dlib  
        pip install face_recognition
 
+package need to be installed
+
 
 Steps to implement Face Recognition with Python:
 
